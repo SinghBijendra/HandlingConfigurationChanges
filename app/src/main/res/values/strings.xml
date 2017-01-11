@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HandlingConfigurationChanges</string>
+    <string name="manually_managing_configuration">Manually Managing Configuration</string>
+    <string name="rotate_activity">Rotate Activity</string>
+    <string name="saving_and_restoring_activity_state">Saving and Restoring Activity State</string>
+    <string name="title_activity_retaining_fragments">RetainingFragmentsActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="saving_and_restoring_fragment_state">Saving and Restoring Fragment State</string>
+    <string name="retaining_object_state_fragments">Retaining Object State in Fragment</string>
+</resources>

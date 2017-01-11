@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.bijendra.configuration.handle.handlingconfigurationchanges.MainActivity">
+
+
+    <Button
+        android:id="@+id/butMMC"
+        android:text="@string/manually_managing_configuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:tag="0"
+        android:onClick="gotoOtherActivity" />
+    <Button
+        android:id="@+id/butSRAS"
+        android:text="@string/saving_and_restoring_activity_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:tag="1"
+        android:onClick="gotoOtherActivity" />
+
+    <Button
+        android:id="@+id/butSRFS"
+        android:text="@string/saving_and_restoring_fragment_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:tag="2"
+        android:onClick="gotoOtherActivity" />
+    <Button
+        android:id="@+id/butROSINF"
+        android:text="@string/retaining_object_state_fragments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:tag="3"
+        android:onClick="gotoOtherActivity" />
+</LinearLayout>
